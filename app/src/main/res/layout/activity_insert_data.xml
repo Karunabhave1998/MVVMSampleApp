@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8B898E"
+    tools:context=".InsertDataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/adddata_background">
+
+    <EditText
+        android:id="@+id/titleEdtId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Title"
+        android:textSize="25dp"
+        android:padding="5dp"
+
+
+        android:background="@drawable/recycler_background"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/descriptionId1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Description"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:background="@drawable/recycler_background"
+        android:textColorHint="@color/black"
+
+      android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="24dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#73108E"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
+</FrameLayout>
